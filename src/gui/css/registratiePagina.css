@@ -1,0 +1,6 @@
+#lbl_error, #lbl_error  .text
+{
+	-fx-text-fill: red;
+	-fx-background-color: white;
+	-fx-font-size: 2em;
+}

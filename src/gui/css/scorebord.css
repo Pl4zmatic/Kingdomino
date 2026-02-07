@@ -1,0 +1,28 @@
+#vbox_scorebord
+{
+	-fx-border-style: solid;
+	-fx-border-width: 10px;
+	-fx-border-radius: 30px;
+	-fx-border-insets: -10px;
+	-fx-background-color: darkred;
+}
+
+.label
+{
+	-fx-text-fill: Gold;
+	-fx-background-color: none;
+	-fx-background-radius: 0;
+	-fx-font-size: 1.5em;
+}
+
+.spelerNaam
+{
+	-fx-font-size: 2em;
+	-fx-text-fill: Black;
+}
+
+.hbox
+{
+	-fx-border-style: solid;
+	-fx-border-width: 5px;
+}

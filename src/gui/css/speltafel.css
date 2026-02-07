@@ -1,0 +1,58 @@
+#grid_kiesKolom
+{
+	-fx-border-style: dotted;
+	-fx-border-color: gold;
+}
+
+#grid_spelerAanBeurt
+{
+	-fx-border-color: black;
+}
+
+#vbox_spelerWachtrij .label, #lbl_score, #lbl_scoreGetal
+{
+	-fx-text-fill: black;
+	-fx-background-color: none;
+	-fx-background-radius: 0;
+	-fx-font-size: 2em;
+}
+
+#grid_kiesKolom .label
+{
+	-fx-text-fill: black;
+	-fx-background-color: rgba(255,255,255, 0.4);
+	-fx-background-radius: 0;
+}
+
+#vbox_spelerWachtrij #sp_spelerAanBeurt
+{
+	-fx-border-style: dashed;
+	-fx-border-color: white;
+	-fx-border-width: 5px;
+}
+
+#vbox_spelerWachtrij #sp_spelerAanBeurt .label
+{
+	-fx-background-color: rgba(255,255,255, 0.4);
+}
+
+#grid_kiesKolom * *:hover
+{
+	-fx-border-style: dashed;
+	-fx-border-color: white;
+	-fx-border-width: 5px;
+	-fx-cursor: hand;
+}
+
+#textArea_feedback
+{
+	-fx-text-fill: gold;
+	-fx-border-style: solid;
+	-fx-border-width: 5px;
+	-fx-font-size: 0.8em;
+}
+
+#lbl_score, #lbl_scoreGetal
+{
+	-fx-text-fill: gold;
+}

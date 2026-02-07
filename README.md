@@ -1,0 +1,9 @@
+# Setup
+
+## Dependencies
+
+- VS Code
+    - Extensions
+        - Extension Pack For java
+- Java
+    - Java JDK 21.0 or higher (Make sure JAVA_HOME is set in environment variables)

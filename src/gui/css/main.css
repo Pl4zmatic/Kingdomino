@@ -1,0 +1,81 @@
+*
+{
+	-fx-background-size: stretch;
+	-fx-font-family: Times New Roman;
+	-fx-font-size: 1em;
+}
+
+#imagePane_spelerBlauw
+{
+	-fx-background-image: url('file:src/assets/tegels/starttegel/starttegel_blauw.png');
+	
+}
+
+#imagePane_spelerGeel
+{
+	-fx-background-image: url("file:src/assets/tegels/starttegel/starttegel_geel.png");
+}
+
+#imagePane_spelerGroen
+{
+	-fx-background-image: url("file:src/assets/tegels/starttegel/starttegel_groen.png");
+}
+
+#imagePane_spelerRoos
+{
+	-fx-background-image: url("file:src/assets/tegels/starttegel/starttegel_roos.png");
+}
+
+.menuOption
+{
+	-fx-background-image: url("file:src/assets/achtergrond/vecteezy_light-brown-cartoon-wood-texture-pattern-wallpaper-background_.jpg");
+}
+
+.menu
+{
+	-fx-background-image: url("file:src/assets/achtergrond/vecteezy_magic-castle-on-green-field-fantasy-architecture_16263594.jpg");
+	-fx-background-position: center;
+}
+
+.table-view .column-header
+{
+	-fx-background-color: darkred;
+}
+
+.table-view .column-header .label
+{
+	-fx-text-fill: gold;
+	
+}
+
+.button:hover
+{
+	-fx-cursor: hand;
+}
+
+.button, .label
+{
+	-fx-background-color: darkred;
+	-fx-text-fill: gold;
+	-fx-background-radius: 50px;
+}
+
+.grid
+{
+	-fx-border-style: solid;
+	-fx-border-color: white;
+	-fx-border-radius: 25px;
+	-fx-border-width: 5px;
+	-fx-background-color: rgba(139, 0, 0, 0.80);
+	-fx-background-radius: 25px;
+}
+
+.grid Line
+{
+	-fx-stroke: gold;
+}
+
+.text-area .content
+{
+	-fx-background-color: darkred;
+}

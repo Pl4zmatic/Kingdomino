@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<fx:root fx:id="root" alignment="CENTER" prefHeight="900.0" prefWidth="900.0" styleClass="menu" type="GridPane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <stylesheets>
+      <URL value="@css/main.css" />
+      <URL value="@css/scorebord.css" />
+   </stylesheets>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="300.0" />
+      <ColumnConstraints maxWidth="1.7976931348623157E308" minWidth="10.0" percentWidth="60.0" prefWidth="300.0" />
+      <ColumnConstraints maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="300.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="300.0" />
+      <RowConstraints fx:id="grid_row_vbox" maxHeight="1.7976931348623157E308" minHeight="10.0" percentHeight="60.0" prefHeight="300.0" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="300.0" />
+   </rowConstraints>
+   <children>
+      <VBox fx:id="vbox_scorebord" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+      </VBox>
+      <Button fx:id="btn_terug" mnemonicParsing="false" onAction="#terug" text="Terug" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+   </children>
+</fx:root>
