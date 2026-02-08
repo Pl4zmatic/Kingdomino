@@ -7,15 +7,17 @@ import com.jcraft.jsch.Session;
 
 public class Connectie {
 
-	private static final int MYSQL_PORT = 3306, SSH_PORT = 22;
-	private static final String SSH_PRIVATE_KEY_PATH = "C:\\Users\\antho\\.ssh\\secondaryKeys\\secondaryKey";
 	private static final String MYSQL_DB = "ID430820_KingDomino";
 	private static final String MYSQL_USER = "root";
-	private static final String MYSQL_SERVER_URL = MYSQL_USER + ".db.webhosting.be";
 	private static final String MYSQL_PWD = "admin";
 	private static final int RANDOM_LOCAL_PORT = 3306;
+	
 	public static final String MYSQL_JDBC = "jdbc:mysql://localhost:" + RANDOM_LOCAL_PORT + "/" + MYSQL_DB + "?user="
-			+ MYSQL_USER + "&password=" + MYSQL_PWD;
+	+ MYSQL_USER + "&password=" + MYSQL_PWD;
+	
+	private static final int MYSQL_PORT = 3306, SSH_PORT = 22;
+	private static final String SSH_PRIVATE_KEY_PATH = "C:\\Users\\antho\\.ssh\\secondaryKeys\\secondaryKey";
+	private static final String MYSQL_SERVER_URL = MYSQL_USER + ".db.webhosting.be";
 	private final String SSH_SERVER_URL = "ssh090.webhosting.be", SSH_USER = "sdp1g55be";
 
 	private int allocatedLocalPort = 0;
