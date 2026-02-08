@@ -62,7 +62,7 @@ public class KingdominoGlobals {
 	protected static String getResourceBundleText(String key)
 	{
 		Locale locale = new Locale(taal);
-		ResourceBundle resourceBundle = ResourceBundle.getBundle("/cfg/resource_bundle", locale);
+		ResourceBundle resourceBundle = ResourceBundle.getBundle("cfg.resource_bundle", locale);
 		return resourceBundle.getString(key);
 	}
 }
