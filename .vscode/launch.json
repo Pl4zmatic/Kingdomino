@@ -9,7 +9,7 @@
             "name": "Launch Kingdomino",
             "request": "launch",
             "mainClass": "main.StartUp",
-            "vmArgs": "--module-path \"${workspaceFolder}/javafx-sdk-21.0.10/lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"${workspaceFolder}/dependencies/javafx-sdk-21.0.10/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }

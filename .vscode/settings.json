@@ -7,7 +7,17 @@
             "javafx-sdk-21.0.10/lib/javafx.base.jar",
             "javafx-sdk-21.0.10/lib/javafx.controls.jar",
             "javafx-sdk-21.0.10/lib/javafx.fxml.jar",
-            "javafx-sdk-21.0.10/lib/javafx.graphics.jar"
+            "javafx-sdk-21.0.10/lib/javafx.graphics.jar",
+            "dependencies/jsch-0.1.55.jar",
+            "dependencies/mysql-connector-j-8.3.0.jar",
+            "dependencies/javafx-sdk-21.0.10/lib/javafx.base.jar",
+            "dependencies/javafx-sdk-21.0.10/lib/javafx.controls.jar",
+            "dependencies/javafx-sdk-21.0.10/lib/javafx.fxml.jar",
+            "dependencies/javafx-sdk-21.0.10/lib/javafx.graphics.jar",
+            "dependencies/javafx-sdk-21.0.10/lib/javafx.media.jar",
+            "dependencies/javafx-sdk-21.0.10/lib/javafx.swing.jar",
+            "dependencies/javafx-sdk-21.0.10/lib/javafx.web.jar",
+            "dependencies/javafx-sdk-21.0.10/lib/javafx-swt.jar"
         ],
         "exclude": [
             "lib/javafx-swt.jar",
