@@ -30,9 +30,10 @@ This setup is only written for VS Code.
 
 ## 2. Database Setup
 
-Here you have 2 options:
+Here you have 3 options:
 1. Setup the database to the properties defined in the program
 2. Edit variables in the program to fit the properties of a pre-existing database.
+3. Run the docker compose file provided.
 
 ### Configuring Database to Program
 1. When setting database properties make sure they follow:

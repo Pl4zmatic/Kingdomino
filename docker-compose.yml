@@ -1,0 +1,13 @@
+# Use root/example as user/password credentials
+
+services:
+  db:
+    container_name: kingdomino-mysql
+    image: mysql
+    restart: unless-stopped
+    ports:
+     - 3306:3306
+    environment:
+      MYSQL_DATABASE: ID430820_KingDomino;
+      MYSQL_ROOT_PASSWORD: root
+    
