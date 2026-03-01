@@ -9,7 +9,7 @@ public class Connectie {
 
 	private static final String MYSQL_DB = "ID430820_KingDomino";
 	private static final String MYSQL_USER = "root";
-	private static final String MYSQL_PWD = "root";
+	private static final String MYSQL_PWD = "admin";
 	private static final int RANDOM_LOCAL_PORT = 3306;
 	
 	public static final String MYSQL_JDBC = "jdbc:mysql://localhost:" + RANDOM_LOCAL_PORT + "/" + MYSQL_DB + "?user="

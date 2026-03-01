@@ -9,5 +9,5 @@ services:
      - 3306:3306
     environment:
       MYSQL_DATABASE: ID430820_KingDomino;
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: admin
     
